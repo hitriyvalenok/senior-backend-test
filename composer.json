@@ -1,0 +1,22 @@
+{
+    "name": "hopster1222/senior-test",
+    "description": "Senior PHP Backend Developer Test Job",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "JohnK",
+            "email": "hopster1222@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JohnK\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
